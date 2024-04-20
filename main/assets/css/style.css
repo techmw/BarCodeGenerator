@@ -1,0 +1,213 @@
+body {
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+.logo {
+  height: 60px;
+}
+@media (max-width: 800px) {
+  #main {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    width: 100%;
+    min-width: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .github-banner {
+    display: none;
+  }
+}
+
+button:focus,
+select:focus,
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-group.btn-group-md {
+  display: flex;
+}
+#barcode {
+  vertical-align: middle;
+}
+h1 {
+  font-size: 32px;
+}
+#title {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 90%;
+}
+
+#title a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+#title a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+#title a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+#title a:active {
+  text-decoration: underline;
+  color: #000;
+}
+
+#invalid {
+  display: none;
+  color: #de0000;
+  margin-top: 10px;
+  font-size: 14pt;
+  vertical-align: middle;
+}
+.bar-des {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.barcode-container {
+  min-height: 170px;
+  line-height: 170px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 24px;
+}
+.btn.btn-1 {
+  border-radius: 8px 0 0 8px !important;
+}
+.btn.btn-2 {
+  border-radius: 0px 8px 8px 0px !important;
+}
+.btn-default:hover,
+.btn-default {
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  background-image: none;
+  text-shadow: none;
+}
+.btn-default.btn-primary:hover,
+.btn-default.btn-primary {
+  color: #fff;
+  font-weight: 600;
+  border-color: rgb(21, 65, 129);
+  background-color: rgb(21, 65, 129);
+}
+.description-text {
+  text-align: start;
+  width: 100px;
+}
+
+.description-text p {
+  margin: 0;
+  font-weight: 700;
+  color: #154181;
+}
+.page-title {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+.download-btn:hover,
+.download-btn {
+  color: #ffffff;
+  border: none !important;
+  background-color: rgb(21, 65, 129);
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  border-radius: 8px;
+}
+.value-text {
+  margin: 0;
+  width: 150px;
+  background: #eee;
+  padding: 4px 0;
+}
+
+.value-text p {
+  margin: 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.rangeslider {
+  margin: 0 !important;
+}
+.slider-container {
+}
+
+.input-container {
+  margin-top: 5px;
+}
+
+section {
+  padding: 32px 0;
+}
+.card-body {
+  padding: 24px;
+}
+.card {
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0 10px 10px -3px rgb(0 0 0 / 0.1), 0 4px 4px -4px rgb(0 0 0 / 0.1) !important;
+}
+.form-label {
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: start;
+}
+.barcode-select,
+.form-select,
+.form-control {
+  line-height: 1.8 !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  font-size: 0.875rem;
+}
+.form-select {
+  --tblr-form-select-bg-img: url(
+    data:image/svg + xml,
+    %3csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 16 16"%3e%3cpathfill="none"stroke="%238a97ab"stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="m2 5 6 6 6-6"/%3e%3c/svg%3e
+  );
+}
